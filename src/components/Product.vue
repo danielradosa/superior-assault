@@ -12,11 +12,6 @@
             <p>
               {{ currentItem.description }}
             </p>
-            <div class="btn-container">
-              <button class="add-to-cart" v-on:click="addToCart(item)">
-                ADD TO CART
-              </button>
-            </div>
           </div>
         </div>
       </div>
@@ -25,16 +20,7 @@
 </template>
 
 <script>
-import {mapMutations} from 'vuex'
-import { dbMenuAdd } from "../../firebase";
-
 export default {
-  methods: {
-    ...mapMutations(["ADD_TO_CART"]),
-    addToCart(item) {
-      this.ADD_TO_CART(item);
-    }
-  },
   data() {
     return {
       cart: [],
@@ -48,21 +34,6 @@ export default {
         },
       },
     };
-  },
-  created() {
-    dbMenuAdd.get().then((querySnapshot) => {
-      querySnapshot.forEach((doc => {
-        var avaibleItemData = doc.data();
-        this.avaibleProducts.push({
-          id: doc.id,
-          name: avaibleItemData.name,
-          price: avaibleItemData.price,
-          description: avaibleItemData.description,
-          uuid: avaibleItemData.uuid,
-          image: avaibleItemData.image
-        })
-      }))
-    })
   },
 };
 </script>
