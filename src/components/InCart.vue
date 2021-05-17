@@ -4,7 +4,10 @@
       <div class="wrap">
         <div class="contact">
           <h2>
-            MÁŠ <span>{{ countOfCartProducts }}</span> VECI V
+            MÁŠ <span>{{ countOfCartProducts }}</span> 
+            <span class="obyc" v-if="countOfCartProducts === 1"> VEC </span> 
+            <span class="obyc" v-else-if="countOfCartProducts >= 2 && countOfCartProducts <= 4"> VECI </span> 
+            <span class="obyc" v-else> VECÍ </span> V
             <span>KOŠÍČKU</span>
           </h2>
         </div>
@@ -62,4 +65,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.obyc {
+  color: #20ffe2;
+  text-decoration: none;
+}
+</style>
