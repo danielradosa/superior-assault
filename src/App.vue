@@ -14,7 +14,7 @@
   margin: 0 auto;
   box-sizing: border-box;
   background-color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Molengo', sans-serif;
   scroll-behavior: smooth;
 }
 
