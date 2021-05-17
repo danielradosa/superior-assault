@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>Page does not exist</h1>
+      <h1>Stránka neexistuje, čo robíš zas</h1>
       <h2>404</h2>
   </div>
 </template>
