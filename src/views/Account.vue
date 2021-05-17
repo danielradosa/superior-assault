@@ -1,26 +1,26 @@
 <template>
   <div>
-    <h1 class="login">LOGIN</h1>
+    <h1 class="login">PRIHLÁSENIE</h1>
     <div class="form" v-if="!currentUser">
       <input
         type="text"
         name="username"
         v-model="email"
-        placeholder="Username"
+        placeholder="Prezúvka"
       />
       <input
         type="password"
         name="password"
         v-model="password"
-        placeholder="Password"
+        placeholder="Hviezdičky"
       />
     </div>
     <div class="lgn">
       <button class="logon" @click.prevent="signIn()" type="button">
-        LOGIN
+        VCHOD
       </button>
       <button class="logon-out" @click.prevent="signOut()" type="button">
-        SIGN OUT
+        ZÁCHOD
       </button>
     </div>
   </div>
@@ -76,7 +76,7 @@ export default {
 <style type="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .login {
-  color: #2b00a6;
+  color: #108071;
   text-align: center;
   text-decoration: line-through;
 }

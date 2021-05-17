@@ -4,8 +4,8 @@
       <div class="wrap">
         <div class="contact">
           <h2>
-            YOU HAVE <span>{{ countOfCartProducts }}</span> ITEMS IN
-            <span>CART</span>
+            MÁŠ <span>{{ countOfCartProducts }}</span> VECI V
+            <span>KOŠÍČKU</span>
           </h2>
         </div>
       </div>
@@ -27,10 +27,10 @@
         </div>
       </div>
       <div class="total">
-        <h3>Total Price: <span>€{{ getTotal }}</span></h3>
+        <h3>Totálna Cena: <span>€{{ getTotal }}</span></h3>
       </div>
       <div class="pay-btn">
-        <button>PAY NOW</button>
+        <button>ZAPLAŤ</button>
       </div>
     </div>
   </div>

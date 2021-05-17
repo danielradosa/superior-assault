@@ -10,7 +10,7 @@
                     <div class="p-name">{{ item.name }}</div>
                     <div class="p-price">€{{ item.price }}</div>
                     <div class="btn-container">
-                        <button class="add-to-cart" v-on:click="addToCart(item)">ADD TO CART</button>
+                        <button class="add-to-cart" v-on:click="addToCart(item)">HOĎ DO KOŠÍČKA</button>
                     </div>
                 </div>
             </div>

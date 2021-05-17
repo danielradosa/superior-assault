@@ -2,37 +2,35 @@
   <div>
     <div class="bottom">
       <h2>
-        <span>WRAITHSQUAD</span> IS A CREATIVE SPACE FOR GRAPHIC DESIGNERS,
-        MUSICIANS AND MORE. WE SELL DESIGNS, ASSETS AND HELP YOU FIND WHAT YOUR
-        MIND CRAVES.
+        <span>SUPERIOR ASSAULT</span> JE KOLEKTÍV DIZAJNÉROV
+        A DEVELOPEROV, KTORÝCH NAPADLO VYTVORIŤ VLASTNÚ ZNAČKU.
+        TAKTIEŽ MÁME V OBĽUBE MEMES LMAO.
       </h2>
     </div>
 
     <div class="links">
       <div class="bot-left">
-        <h3>Follow us</h3>
-        <a href="https://www.facebook.com/wraithsquad" target="_blank"
+        <h3>Stalkuj nás</h3>
+        <a href="https://www.facebook.com/superiorassault" target="_blank"
           ><i class="fab fa-facebook"></i
         ></a>
-        <a href="https://www.instagram.com/wraithsquad/" target="_blank"
+        <a href="https://www.instagram.com/superior_assault/" target="_blank"
           ><i class="fab fa-instagram"></i
         ></a>
       </div>
 
       <div class="bot-right">
-        <h3>Recommended</h3>
+        <h3>Odporúčané čítanie</h3>
         <hr />
         <router-link @click.native="scrollToTop" to="/Terms"
-          >terms & conditions</router-link
+          >Podmienky & pravidlá</router-link
         >
-        <hr />
-        <a href="https://discord.gg/gs7cpMr" target="_blank">discord</a>
-        <hr />
+        
       </div>
     </div>
 
     <footer>
-      <h4>&copy; COPYRIGHT - WRAITHSQUAD 2089</h4>
+      <h4>&copy; COPYRIGHT - DANIEL RADOSA 2069 - All Lefts Reversed</h4>
       <a href="#"><button class="fa fa-caret-up"></button></a>
     </footer>
   </div>
@@ -51,7 +49,7 @@ export default {
 <style lang="scss" scoped>
   .fa-caret-up {
     border:none;
-    background-color: #2b00a6;
+    background-color: #108071;
     color: white;
     width: 3em;
     height: 3em;

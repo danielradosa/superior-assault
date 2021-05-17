@@ -8,7 +8,7 @@
         <div class="prod-left">
           <img :src="currentItem.image" />
           <div class="prod-right">
-            <h2>Description</h2>
+            <h2>Popis</h2>
             <p>
               {{ currentItem.description }}
             </p>

@@ -2,14 +2,14 @@
   <div class="home">
     <div class="ban">
       <img
-        src="https://steamuserimages-a.akamaihd.net/ugc/946221105798544818/C10AA02C9576CD4B72CE121B23791CD6D8DE3943/"
+        src="https://64.media.tumblr.com/f3462eead95836ae1f928641428d398d/tumblr_nmzc9biHny1rhfekio1_500.gifv"
         alt=""
       />
     </div>
 
     <main>
       <div class="featured">
-        <h1>featured wraithsquad products</h1>
+        <h1>Fičurované Produkty</h1>
       </div>
       <div class="wrap">
         <div class="products">

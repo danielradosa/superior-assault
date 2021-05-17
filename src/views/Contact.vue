@@ -3,8 +3,8 @@
     <main>
         <div class="wrap">
             <div class="contact">
-                <h2>CONTACT <span>WRAITHSQUAD</span></h2>
-                <h3>info@wraithsquad.net</h3>
+                <h2>KONTAKTUJ <span>DANIELA</span></h2>
+                <h3>danysko5@gmail.com</h3>
             </div>
         </div>
     </main>

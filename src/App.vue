@@ -14,7 +14,7 @@
   margin: 0 auto;
   box-sizing: border-box;
   background-color: black;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -34,11 +34,11 @@ body {
 }
 
 a {
-  color: #2afd00;
+  color: #20ffe2;
 }
 
 .links a i:hover {
-  color: #2b00a6;
+  color: #108071;
   transition: 0.6s ease-in-out;
 }
 
@@ -71,7 +71,7 @@ nav {
 
 nav a {
   padding-bottom: 2em;
-  color: #2afd00;
+  color: #20ffe2;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #2b00a6;
+  color: #108071;
 }
 
 .ban {
@@ -103,7 +103,7 @@ main {
 }
 
 .featured {
-  color: #2afd00;
+  color: #20ffe2;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
@@ -130,7 +130,7 @@ main {
 }
 
 .item a {
-  color: #2afd00;
+  color: #20ffe2;
   text-decoration: none;
   font-weight: bold;
   margin-top: -3em;
@@ -138,13 +138,13 @@ main {
 }
 
 .item a:hover {
-  color: #2b00a6;
+  color: #108071;
 }
 
 .bottom {
   display: flex;
   justify-content: center;
-  color: #2afd00;
+  color: #20ffe2;
   font-size: 2vw;
   padding: 6em;
   text-align: center;
@@ -155,12 +155,12 @@ h2 {
 }
 
 h2 span {
-  color: #2b00a6;
+  color: #108071;
   text-decoration: line-through;
 }
 
 .links {
-  color: #2afd00;
+  color: #20ffe2;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -183,7 +183,7 @@ h2 span {
 }
 
 .bot-right a {
-  color: #2afd00;
+  color: #20ffe2;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
@@ -192,12 +192,12 @@ h2 span {
 }
 
 .bot-right a:hover {
-  color: #2b00a6;
+  color: #108071;
 }
 
 footer {
   width: 100%;
-  background-color: #2afd00;
+  background-color: #20ffe2;
   bottom: 0;
   display: flex;
   justify-content: center;
@@ -232,16 +232,16 @@ h4 {
 
 .prod-right h2 {
   text-align: justify;
-  color: #2afd00;
+  color: #20ffe2;
 }
 
 .prod-right p {
-  color: #2afd00;
+  color: #20ffe2;
   font-size: 6vw;
 }
 
 .featured-pack {
-  color: #2b00a6;
+  color: #108071;
   text-align: center;
   margin-top: 3em;
   font-size: 3vw;
@@ -252,7 +252,7 @@ h4 {
 }
 
 .contact {
-  color: #2afd00;
+  color: #20ffe2;
   font-size: 3vw;
   text-align: center;
 }
@@ -294,7 +294,7 @@ h4 {
 }
 
 .p-name {
-  color: #2afd00;
+  color: #20ffe2;
   text-align: center;
   font-weight: bold;
   font-size: 4vw;
@@ -341,7 +341,7 @@ button.add-to-cart {
 
 .cart {
   width: 100%;
-  color: #2afd00;
+  color: #20ffe2;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -355,12 +355,25 @@ button.add-to-cart {
   background-color: white;
   color: black;
   text-align: center;
+  padding: 1em;
+}
+
+.podmienky {
+  font-size: 1vw;
+  text-align: left;
+  margin-left: 6em;
+  width: 80%;
+  margin-top: -2em;
+  padding-left: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .total h3 span {
-  background-color: #2b00a6;
+  background-color: #108071;
   color: white;
-  padding: 0.5em 1.5em;
+  padding: 1em 1.5em;
+  margin: 1em;
 }
 
 .pay-btn {
