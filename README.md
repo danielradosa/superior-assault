@@ -1,11 +1,10 @@
-# Wraithsquad Webshop - Selling digital assets
+# Superior Assault - Streetwear Eshop
 
 ## Using / Will try to make work
 VueJS, Vuex, Firebase\
 Will try to implement PayPal.\
 Also let users create real accounts,\
-so they can access their bought / owned assets online\
-and download them anytime.\
+so they can access their bought / owned things online.\
 
 ## Project setup
 ```
@@ -29,4 +28,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# wraithsquad
+# superiorassault
