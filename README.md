@@ -1,10 +1,10 @@
 # Superior Assault - Streetwear Eshop
 
-## Using / Will try to make work
+## LIVE VERSION of previous idea - same app
+https://wraithsquad-test.web.app/
+
+## Using
 VueJS, Vuex, Firebase\
-Will try to implement PayPal.\
-Also let users create real accounts,\
-so they can access their bought / owned things online.\
 
 ## Project setup
 ```
